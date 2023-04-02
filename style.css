@@ -1,0 +1,215 @@
+html,
+body,
+p {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  background-image: url(./images/codioful-formerly-gradienta-1LirzgcpY2c-unsplash.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.svg-bg {
+  transform: scale(0.5);
+  position: static;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  flex-direction: column;
+}
+
+footer {
+  margin: 2rem;
+}
+
+.container1 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.main-heading {
+  color: #a3a5ae;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+.secondary-heading {
+  color: #a3a5ae;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.container2 {
+  align-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.box {
+  border-radius: 0.5rem;
+  border-top: 0.3rem solid #000000;
+  margin: 1rem 0;
+  padding: 1rem;
+  position: relative;
+  height: calc(720px / 5);
+  background: #0000004f;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #2d2d2d5f;
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid #00000003;
+}
+
+.box h1 {
+  color: #4c4e61;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.box p {
+  color: #a3a5ae;
+  font-weight: 200;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.box:hover {
+  box-shadow: #1b1b31 0 50px 100px -20px, #000 0 30px 60px -30px;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 250ms;
+}
+
+.section1 {
+  border-top: 0.3rem solid #ea5353;
+}
+
+.section1 h1 {
+  color: #ea5353;
+}
+
+.section2 {
+  border-top: 0.3rem solid #45d3d3;
+}
+.section2 h1 {
+  color: #45d3d3;
+}
+.section3 {
+  border-top: 0.3rem solid #fcaf4a;
+}
+
+.section3 h1 {
+  color: #fcaf4a;
+}
+.section4 {
+  border-top: 0.3rem solid #549ef2;
+}
+
+.section4 h1 {
+  color: hwb(212 33% 5%);
+}
+.svg {
+  bottom: 1rem;
+  position: absolute;
+  right: 1.5rem;
+  transform: scale(0.6);
+}
+
+.top-para {
+  color: #a3a5ae;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+footer {
+  font-size: 11px;
+  text-align: center;
+  color: #a3a5ae;
+  margin-bottom: 1rem;
+}
+
+.attribution a {
+  color: #a3a5ae;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+    background-image: url(./images/blob-scene-haikei.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .box {
+    margin: 1rem 1rem;
+    margin-top: 0.2rem;
+    position: relative;
+    height: 22vh;
+    width: 22vw;
+  }
+
+  .box h1 {
+    font-size: 115%;
+  }
+
+  .box p {
+    font-size: 75%;
+  }
+
+  .svg {
+    bottom: 1rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .container2 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .main-heading,
+  .secondary-heading {
+    font-size: 2rem;
+  }
+
+  .section1,
+  .section4 {
+    align-self: center;
+    grid-row-end: 3;
+    grid-row-start: 1;
+    justify-self: center;
+  }
+  .section2 {
+    justify-self: center;
+  }
+  .section3 {
+    grid-row-end: 3;
+    grid-row-start: 2;
+    justify-self: center;
+  }
+}
