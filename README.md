@@ -28,8 +28,19 @@ Users should be able to:
 
 ### Solution
 
+#### Desktop View
+
 ![](./preview/FireShot%20Capture%20002%20-%20Frontend%20Mentor%20-%20Four%20card%20feature%20section%20-%20127.0.0.1.jpg)
+
+#### Mobile View
+
 ![](./preview/FireShot%20Capture%20003%20-%20Frontend%20Mentor%20-%20Four%20card%20feature%20section%20-%20127.0.0.1.jpg)
+
+#### Hover effect
+
+![](./preview/FJPUB5Gbp4.png)
+
+![](./preview/NVIDIA_Share_xzpUfvgdBv.png)
 
 ## My process
 
